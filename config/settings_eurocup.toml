@@ -1,0 +1,24 @@
+# Settings for running the same system on the EuroCup, the league's second
+# competition, served by the same API in the same format. Use with
+#   $env:ELSIM_SETTINGS = "config/settings_eurocup.toml"   (PowerShell)
+# Everything is kept apart from the EuroLeague data.
+
+min_interval_seconds = 1.0
+user_agent = "euroleague-sim/0.1 (personal, non-commercial)"
+raw_dir = "data/eurocup/raw"
+db_path = "data/eurocup/eurocup.duckdb"
+reports_dir = "reports/eurocup"
+competition = "U"
+past_seasons = ["U2020", "U2021", "U2022", "U2023", "U2024", "U2025"]
+current_season = "U2026"
+
+# Seasons 2020-21 to 2022-23 only train; 2023-24 on are forecast walk-forward.
+first_test_season = "U2023"
+
+seed = 20261011
+format_file = "format_2026.toml"   # EuroLeague format; the season simulation is not used for the EuroCup
+n_paths = 100000
+
+enable_shot_data = false
+absences_file = ""          # no hand-entered absences for the EuroCup
+require_all_venues = false  # EuroCup arenas are not in config/venues.csv; their games get no travel distance

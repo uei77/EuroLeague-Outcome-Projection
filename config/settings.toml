@@ -1,0 +1,22 @@
+# Seconds between two requests to any host. Keep this at 1.0 or higher.
+min_interval_seconds = 1.0
+user_agent = "euroleague-sim/0.1 (personal, non-commercial)"
+raw_dir = "data/raw"
+db_path = "data/euroleague.duckdb"
+competition = "E"
+past_seasons = ["E2018", "E2019", "E2020", "E2021", "E2022", "E2023", "E2024", "E2025"]
+current_season = "E2026"
+
+# First season predicted in the backtest. Earlier seasons only train.
+first_test_season = "E2020"
+
+# One seed for everything random (LightGBM row sampling, later the simulator). Recorded with every run.
+seed = 20261011
+
+# Season simulation.
+format_file = "format_2026.toml"
+n_paths = 100000
+
+# Shot module (step 7). Uses an endpoint that is not in the league's API documentation.
+# With false, nothing else in the system changes.
+enable_shot_data = true

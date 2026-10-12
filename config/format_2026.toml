@@ -1,0 +1,35 @@
+# Competition format for 2026-27, as published. Sources read on 11 October 2026:
+# the league's schedule announcement (20 teams, 38 rounds, top six to the
+# playoffs, seventh to tenth to the play-in) and the season's regular-season
+# and playoffs pages on Wikipedia for the wording below. The league's own
+# bylaws could not be opened from the development environment, so the wording
+# is second-hand. The rules were checked against the real pairings of seven
+# past seasons (see docs/TECHNICAL_NOTES.md).
+
+direct_playoff_places = 6          # places 1 to 6 go straight to the playoffs
+play_in_places = [7, 8, 9, 10]
+
+# Play-in, single games, each "hosted by the team with the higher regular
+# season record": 7th v 8th, the winner is seeded 7th; 9th v 10th, the loser
+# is out; then the loser of the first game hosts the winner of the second,
+# and the winner is seeded 8th.
+
+# Playoffs: seeds 1 v 8, 2 v 7, 3 v 6, 4 v 5. "The first team to win three
+# games wins the series." The team with home-court advantage hosts games 1, 2
+# and 5.
+series_home_pattern = [true, true, false, false, true]
+
+# Final Four: single games on a neutral court. Semi-finals pair the winners of
+# the series (1 v 8) with (4 v 5), and (2 v 7) with (3 v 6). This pairing is
+# not stated in the sources; it is what happened in 2025-26.
+final_four_semi_finals = [[0, 3], [1, 2]]   # indices into the series 1v8, 2v7, 3v6, 4v5
+
+# Table tie-breaks, in order, quoted:
+#   1. "Best record in head-to-head games between all tied teams."
+#   2. "Higher cumulative score difference in head-to-head games between all tied teams."
+#   3. "Higher cumulative score difference for the entire regular season."
+#   4. "Higher total of points scored for the entire regular season."
+#   5. "Higher sum of quotients of points in favor and points against of each match played in the regular season."
+# If a step leaves some teams tied, the process starts again for those teams.
+# Points scored in overtime count in none of these. Steps 4 and 5 are not
+# implemented; see src/elsim/simulate/table.py.

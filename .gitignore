@@ -1,0 +1,18 @@
+# Local data, credentials and environments
+data/
+tests/fixtures/
+.env
+.venv/
+_to_delete/
+
+# Generated outputs (the confidence table is read by the dashboard and kept)
+reports/*
+!reports/confidence.csv
+
+# Python
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+predictions/
+# forecasts/ is kept: each matchweek's published games.txt and players.txt

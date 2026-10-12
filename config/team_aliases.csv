@@ -1,0 +1,21 @@
+team_code,source,alias
+ASV,odds_api,ASVEL Lyon Villeurbanne
+BAR,odds_api,FC Barcelona Bàsquet
+BAS,odds_api,Saski Baskonia
+BES,odds_api,Beşiktaş J.K.
+DUB,odds_api,Dubai Basketball
+HTA,odds_api,Hapoel Tel Aviv
+IST,odds_api,Anadolu Efes
+MAD,odds_api,Real Madrid
+MIL,odds_api,Pallacanestro Olimpia Milano
+MUN,odds_api,FC Bayern München
+OLY,odds_api,Olympiacos
+PAM,odds_api,Valencia Basket
+PAN,odds_api,Panathinaikos
+PAR,odds_api,KK Partizan NIS
+PRS,odds_api,Paris Basketball
+RED,odds_api,KK Crvena zvezda
+TEL,odds_api,Maccabi Tel Aviv
+ULK,odds_api,Fenerbahce SK
+VIR,odds_api,Virtus Segafredo Bologna
+ZAL,odds_api,Žalgiris

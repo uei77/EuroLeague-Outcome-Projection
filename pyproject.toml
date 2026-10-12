@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "elsim"
+version = "1.0.0"
+description = "EuroLeague Outcome Projection: game forecasts, expected scores, season simulation and players to watch"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Utku Ege" }]
+requires-python = ">=3.10"
+dependencies = [
+    "duckdb>=1.0",
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "lightgbm",
+    "matplotlib",
+    "fastapi",
+    "uvicorn",
+    "streamlit",
+    "altair",
+    "pandas",
+    "tomli; python_version < '3.11'",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "httpx", "ruff"]
+
+[project.scripts]
+elsim = "elsim.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+src = ["src", "dashboard", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = [
+    "E731",  # short named lambdas are used for one-line helpers
+    "B023",  # closures defined in a loop are only called within that same iteration
+    "B905",  # zip over sequences built to the same length; strict= adds nothing here
+    "E501",  # line length is kept by ruff format; long SQL lines and messages stay whole
+]

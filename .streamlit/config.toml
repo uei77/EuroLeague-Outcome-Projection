@@ -1,0 +1,8 @@
+# The chart colours are validated for a light surface.
+[theme]
+base = "light"
+backgroundColor = "#fcfcfb"
+textColor = "#0b0b0b"
+
+[browser]
+gatherUsageStats = false
