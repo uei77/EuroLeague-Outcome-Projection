@@ -1,0 +1,166 @@
+EuroLeague forecasts, run 20261013T150649Z (times in this computer's local time)
+Probabilities come from the published model; ranges are 80% ranges. No betting advice.
+Known absences: JAMES, MIKE until 2027-06-30; MOTLEY, JOHNATHAN until 2026-10-28; MINAYA, JUSTIN until 2026-10-16; PLOTAS, NIKOLAOS until 2026-11-18; DOSSOU-YOVO, MATHIS until 2026-10-30; ANDERSON, JUSTIN until 2026-10-16; MAKOUNDOU, YOAN until 2026-10-16; WILLIS, DEREK until 2026-10-16; ENNIS, TYLER until 2027-06-30; GARUBA, USMAN until 2027-06-30; CORDINIER, ISAIA until 2026-10-30; PAPAGIANNIS, GEORGIOS until 2026-10-30; MARINKOVIC, VANJA until 2026-10-30; JEFFRIES, DAQUAN until 2026-10-30
+
+20 games to come, in playing order
+
+Tue 13 Oct 2026, 20:45  |  round 5
+Fenerbahce Tarfin Istanbul (ULK) v Zalgiris Kaunas (ZAL)
+  Win chance        ULK 61.4%   ZAL 38.6%   (favourite: Fenerbahce Tarfin Istanbul)
+  Expected score    85 - 82
+  Margin (home)     +3.5, 80% range -12 to +19
+  Total points      167, 80% range 147 to 186
+  Market            ULK 71.3% (median of 19 bookmakers, comparison only)
+
+Tue 13 Oct 2026, 21:00  |  round 5
+LDLC ASVEL Villeurbanne (ASV) v Crvena Zvezda Meridianbet Belgrade (RED)
+  Win chance        ASV 40.2%   RED 59.8%   (favourite: Crvena Zvezda Meridianbet Belgrade)
+  Expected score    85 - 88
+  Margin (home)     -3.2, 80% range -19 to +13
+  Total points      173, 80% range 153 to 193
+  With known absences  ASV 40.8%
+  Market            ASV 43.5% (median of 19 bookmakers, comparison only)
+
+Tue 13 Oct 2026, 21:30  |  round 5
+Kosner Baskonia Vitoria-Gasteiz (BAS) v Dubai Basketball (DUB)
+  Win chance        BAS 46.2%   DUB 53.8%   (favourite: Dubai Basketball)
+  Expected score    84 - 86
+  Margin (home)     -1.2, 80% range -17 to +15
+  Total points      170, 80% range 151 to 189
+  Market            BAS 38.3% (median of 19 bookmakers, comparison only)
+
+Tue 13 Oct 2026, 21:30  |  round 5
+Armani Olimpia Milan (MIL) v Real Madrid (MAD)
+  Win chance        MIL 42.9%   MAD 57.1%   (favourite: Real Madrid)
+  Expected score    85 - 87
+  Margin (home)     -2.2, 80% range -18 to +14
+  Total points      172, 80% range 153 to 192
+  Market            MIL 39.3% (median of 19 bookmakers, comparison only)
+
+Tue 13 Oct 2026, 21:30  |  round 5
+FC Barcelona (BAR) v Maccabi Rapyd Tel Aviv (TEL)
+  Win chance        BAR 64.4%   TEL 35.6%   (favourite: FC Barcelona)
+  Expected score    88 - 83
+  Margin (home)     +4.5, 80% range -11 to +20
+  Total points      171, 80% range 151 to 190
+  Market            BAR 67.5% (median of 18 bookmakers, comparison only)
+
+Tue 13 Oct 2026, 21:30  |  round 5
+Partizan Mozzart Bet Belgrade (PAR) v Panathinaikos AKTOR Athens (PAN)
+  Win chance        PAR 49.1%   PAN 50.9%   (favourite: Panathinaikos AKTOR Athens)
+  Expected score    85 - 85
+  Margin (home)     -0.3, 80% range -16 to +16
+  Total points      170, 80% range 151 to 190
+  Market            PAR 35.8% (median of 18 bookmakers, comparison only)
+
+Tue 13 Oct 2026, 22:00  |  round 5
+Valencia Basket (PAM) v Olympiacos Piraeus (OLY)
+  Win chance        PAM 46.4%   OLY 53.6%   (favourite: Olympiacos Piraeus)
+  Expected score    90 - 91
+  Margin (home)     -1.2, 80% range -18 to +15
+  Total points      182, 80% range 161 to 202
+  Market            PAM 44.2% (median of 19 bookmakers, comparison only)
+
+Wed 14 Oct 2026, 19:00  |  round 5
+Hapoel IBI Tel Aviv (HTA) v Besiktas Istanbul (BES)
+  Win chance        HTA 71.1%   BES 28.9%   (favourite: Hapoel IBI Tel Aviv, confident pick)
+  Expected score    92 - 85
+  Margin (home)     +7.2, 80% range -9 to +24
+  Total points      177, 80% range 157 to 197
+  Market            HTA 70.8% (median of 16 bookmakers, comparison only)
+
+Wed 14 Oct 2026, 20:30  |  round 5
+Anadolu Efes Istanbul (IST) v FC Bayern Munich (MUN)
+  Win chance        IST 65.9%   MUN 34.1%   (favourite: Anadolu Efes Istanbul, confident pick)
+  Expected score    88 - 83
+  Margin (home)     +5.2, 80% range -11 to +21
+  Total points      172, 80% range 152 to 192
+  Market            IST 69.5% (median of 15 bookmakers, comparison only)
+
+Wed 14 Oct 2026, 21:45  |  round 5
+Paris Basketball (PRS) v Virtus Bologna (VIR)
+  Win chance        PRS 70.2%   VIR 29.8%   (favourite: Paris Basketball, confident pick)
+  Expected score    89 - 83
+  Margin (home)     +6.7, 80% range -9 to +23
+  Total points      172, 80% range 152 to 192
+  Market            PRS 63.4% (median of 16 bookmakers, comparison only)
+
+Thu 15 Oct 2026, 20:45  |  round 6
+Fenerbahce Tarfin Istanbul (ULK) v Partizan Mozzart Bet Belgrade (PAR)
+  Win chance        ULK 65.3%   PAR 34.7%   (favourite: Fenerbahce Tarfin Istanbul, confident pick)
+  Expected score    85 - 80
+  Margin (home)     +4.8, 80% range -11 to +20
+  Total points      165, 80% range 146 to 184
+
+Thu 15 Oct 2026, 21:30  |  round 6
+Armani Olimpia Milan (MIL) v Dubai Basketball (DUB)
+  Win chance        MIL 57.5%   DUB 42.5%   (favourite: Armani Olimpia Milan)
+  Expected score    83 - 81
+  Margin (home)     +2.2, 80% range -13 to +17
+  Total points      165, 80% range 146 to 183
+  Market            MIL 47.3% (median of 12 bookmakers, comparison only)
+
+Thu 15 Oct 2026, 21:30  |  round 6
+Valencia Basket (PAM) v Maccabi Rapyd Tel Aviv (TEL)
+  Win chance        PAM 73.6%   TEL 26.4%   (favourite: Valencia Basket, confident pick)
+  Expected score    93 - 85
+  Margin (home)     +8.1, 80% range -8 to +24
+  Total points      178, 80% range 158 to 199
+  Market            PAM 67.6% (median of 8 bookmakers, comparison only)
+
+Thu 15 Oct 2026, 22:00  |  round 6
+Real Madrid (MAD) v LDLC ASVEL Villeurbanne (ASV)
+  Win chance        MAD 86.4%   ASV 13.6%   (favourite: Real Madrid, confident pick)
+  Expected score    95 - 81
+  Margin (home)     +14.0, 80% range -2 to +30
+  Total points      176, 80% range 156 to 196
+  Market            MAD 85.4% (median of 8 bookmakers, comparison only)
+
+Fri 16 Oct 2026, 20:00  |  round 6
+Besiktas Istanbul (BES) v FC Bayern Munich (MUN)
+  Win chance        BES 63.8%   MUN 36.2%   (favourite: Besiktas Istanbul)
+  Expected score    90 - 85
+  Margin (home)     +4.5, 80% range -12 to +21
+  Total points      175, 80% range 155 to 195
+  Market            BES 59.3% (median of 8 bookmakers, comparison only)
+
+Fri 16 Oct 2026, 20:00  |  round 6
+Zalgiris Kaunas (ZAL) v Anadolu Efes Istanbul (IST)
+  Win chance        ZAL 69.1%   IST 30.9%   (favourite: Zalgiris Kaunas, confident pick)
+  Expected score    89 - 83
+  Margin (home)     +6.3, 80% range -10 to +22
+  Total points      172, 80% range 153 to 192
+  With known absences  ZAL 70.9%
+  Market            ZAL 67.4% (median of 8 bookmakers, comparison only)
+
+Fri 16 Oct 2026, 21:00  |  round 6
+Crvena Zvezda Meridianbet Belgrade (RED) v Paris Basketball (PRS)
+  Win chance        RED 67.7%   PRS 32.3%   (favourite: Crvena Zvezda Meridianbet Belgrade, confident pick)
+  Expected score    89 - 83
+  Margin (home)     +5.8, 80% range -10 to +22
+  Total points      171, 80% range 151 to 191
+  Market            RED 73.6% (median of 8 bookmakers, comparison only)
+
+Fri 16 Oct 2026, 21:15  |  round 6
+Panathinaikos AKTOR Athens (PAN) v Hapoel IBI Tel Aviv (HTA)
+  Win chance        PAN 73.1%   HTA 26.9%   (favourite: Panathinaikos AKTOR Athens, confident pick)
+  Expected score    91 - 83
+  Margin (home)     +7.6, 80% range -8 to +24
+  Total points      173, 80% range 154 to 193
+  Market            PAN 73.0% (median of 8 bookmakers, comparison only)
+
+Fri 16 Oct 2026, 21:30  |  round 6
+FC Barcelona (BAR) v Olympiacos Piraeus (OLY)
+  Win chance        BAR 38.3%   OLY 61.7%   (favourite: Olympiacos Piraeus)
+  Expected score    85 - 89
+  Margin (home)     -3.7, 80% range -20 to +12
+  Total points      174, 80% range 154 to 193
+  Market            BAR 40.8% (median of 8 bookmakers, comparison only)
+
+Fri 16 Oct 2026, 21:30  |  round 6
+Virtus Bologna (VIR) v Kosner Baskonia Vitoria-Gasteiz (BAS)
+  Win chance        VIR 64.2%   BAS 35.8%   (favourite: Virtus Bologna)
+  Expected score    90 - 85
+  Margin (home)     +4.7, 80% range -12 to +21
+  Total points      175, 80% range 155 to 196
+  Market            VIR 58.8% (median of 8 bookmakers, comparison only)
