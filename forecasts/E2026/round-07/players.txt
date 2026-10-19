@@ -1,0 +1,158 @@
+EuroLeague forecasts, run 20261019T164740Z (times in this computer's local time)
+Probabilities come from the published model; ranges are 80% ranges. No betting advice.
+Known absences: JAMES, MIKE until 2027-06-30; MOTLEY, JOHNATHAN until 2026-10-28; MINAYA, JUSTIN until 2026-10-16; PLOTAS, NIKOLAOS until 2026-11-18; DOSSOU-YOVO, MATHIS until 2026-10-30; ANDERSON, JUSTIN until 2026-10-16; MAKOUNDOU, YOAN until 2026-10-16; WILLIS, DEREK until 2026-10-16; ENNIS, TYLER until 2027-06-30; GARUBA, USMAN until 2027-06-30; CORDINIER, ISAIA until 2026-10-30; PAPAGIANNIS, GEORGIOS until 2026-10-30; MARINKOVIC, VANJA until 2026-10-30; JEFFRIES, DAQUAN until 2026-10-30
+
+Expected top performers per team, rounds 7
+Expected PIR is the league's valuation the player is expected to post; 'vs own norm' is the form and
+matchup part of it; 'rising' marks the rotation players most likely to beat their own norm.
+Later rounds are not listed: who plays and in what form is not known that far ahead.
+
+Wed 21 Oct 2026, 19:00  |  round 7
+Hapoel IBI Tel Aviv (HTA) v Virtus Bologna (VIR)
+  Hapoel IBI Tel Aviv
+    1. BRYANT, ELIJAH             Guard      31 min   expected PIR  20.3   vs own norm +0.0
+    2. LEDAY, ZACH                Forward    21 min   expected PIR  13.3   vs own norm +0.9  rising
+    3. OTURU, DAN                 Center     20 min   expected PIR  12.4   vs own norm -0.6
+    4. BLAKENEY, ANTONIO          Guard      25 min   expected PIR  11.6   vs own norm -0.4
+    5. MICIC, VASILIJE            Guard      28 min   expected PIR  10.4   vs own norm -0.7
+  Virtus Bologna
+    1. DIARRA, ALIOU              Center     20 min   expected PIR  13.5   vs own norm +0.8  rising
+    2. CARR, MARCUS               Guard      23 min   expected PIR  11.7   vs own norm +0.6
+    3. MOORE, WENDELL             Guard      24 min   expected PIR  11.3   vs own norm +0.2
+    4. ALSTON JR. , DERRICK       Forward    21 min   expected PIR   8.0   vs own norm -0.6
+    5. EDWARDS, KESSLER           Forward    22 min   expected PIR   7.5   vs own norm -0.8
+
+Thu 22 Oct 2026, 20:30  |  round 7
+Anadolu Efes Istanbul (IST) v Besiktas Istanbul (BES)
+  Anadolu Efes Istanbul
+    1. SARIC, DARIO               Forward    25 min   expected PIR  14.3   vs own norm +0.6
+    2. STRAZEL, MATTHEW           Guard      24 min   expected PIR  11.6   vs own norm +0.4
+    3. LOYD, JORDAN               Guard      23 min   expected PIR  10.9   vs own norm +0.6
+    4. MALCOLM, COLLIN            Forward    24 min   expected PIR  10.8   vs own norm +0.9  rising
+    5. FERNANDO, BRUNO            Center     21 min   expected PIR  10.4   vs own norm +0.3
+  Besiktas Istanbul
+    1. WILBEKIN, SCOTTIE          Guard      24 min   expected PIR  12.2   vs own norm +0.6
+    2. ZIZIC, ANTE                Center     20 min   expected PIR  12.1   vs own norm +0.4
+    3. DOTSON, DEVON              Guard      22 min   expected PIR  10.6   vs own norm +0.6
+    4. BROWN, ANTHONY             Forward    25 min   expected PIR   8.9   vs own norm -0.4
+    5. NOWELL, JAYLEN             Guard      21 min   expected PIR   8.6   vs own norm +0.1
+
+Thu 22 Oct 2026, 21:00  |  round 7
+FC Bayern Munich (MUN) v Dubai Basketball (DUB)
+  FC Bayern Munich
+    1. THIEMANN, JOHANNES         Center     22 min   expected PIR  12.6   vs own norm +0.8  rising
+    2. WASHINGTON, DUANE          Guard      20 min   expected PIR  10.2   vs own norm -0.1
+    3. OBST, ANDREAS              Guard      24 min   expected PIR   8.5   vs own norm -0.7
+    4. BEAUCHAMP, MARJON          Forward    22 min   expected PIR   7.9   vs own norm -0.3
+    5. WILEY, AUSTIN              Center     17 min   expected PIR   7.6   vs own norm +0.8
+  Dubai Basketball
+    1. KABENGELE, MFIONDU         Center     23 min   expected PIR  16.4   vs own norm +0.7
+    2. BACON, DWAYNE              Forward    27 min   expected PIR  15.7   vs own norm +0.1
+    3. OKOBO, ELIE                Guard      27 min   expected PIR  13.0   vs own norm +0.4
+    4. WRIGHT IV, MCKINLEY        Guard      24 min   expected PIR  10.8   vs own norm +0.2
+    5. PETRUSEV, FILIP            Center     15 min   expected PIR   9.6   vs own norm +0.4
+
+Thu 22 Oct 2026, 21:05  |  round 7
+Maccabi Rapyd Tel Aviv (TEL) v Real Madrid (MAD)
+  Maccabi Rapyd Tel Aviv
+    1. MADAR, YAM                 Guard      21 min   expected PIR  11.7   vs own norm +0.4
+    2. HOARD, JAYLEN              Forward    25 min   expected PIR  11.6   vs own norm -0.5
+    3. BRISSETT, O'SHAE J         Forward    24 min   expected PIR  11.1   vs own norm -0.0
+    4. THEIS, DANIEL              Center     19 min   expected PIR  10.4   vs own norm -0.1
+    5. COLSON, BONZIE             Forward    21 min   expected PIR  10.1   vs own norm +0.6
+  Real Madrid
+    1. MALEDON, THEO              Guard      23 min   expected PIR  17.1   vs own norm +0.5
+    2. TAVARES, WALTER            Center     21 min   expected PIR  13.4   vs own norm +0.1
+    3. CAMPAZZO, FACUNDO          Guard      21 min   expected PIR  11.1   vs own norm +0.1
+    4. FELIZ, ANDRES              Guard      19 min   expected PIR  10.0   vs own norm +0.3
+    5. OKEKE, CHUMA               Center     16 min   expected PIR   7.5   vs own norm +0.0
+
+Thu 22 Oct 2026, 21:15  |  round 7
+Panathinaikos AKTOR Athens (PAN) v Kosner Baskonia Vitoria-Gasteiz (BAS)
+  Panathinaikos AKTOR Athens
+    1. FRANCISCO, SYLVAIN         Guard      23 min   expected PIR  16.6   vs own norm +0.7  rising
+    2. LESSORT, MATHIAS           Center     21 min   expected PIR  15.9   vs own norm +0.4
+    3. HAYES-DAVIS, NIGEL         Forward    26 min   expected PIR  12.5   vs own norm +0.4
+    4. YABUSELE, GUERSCHON        Forward    22 min   expected PIR  11.7   vs own norm +0.6
+    5. HERNANGOMEZ, JUANCHO       Forward    18 min   expected PIR  10.2   vs own norm +0.5
+  Kosner Baskonia Vitoria-Gasteiz
+    1. FARIED, KENNETH            Center     21 min   expected PIR  10.2   vs own norm +0.1
+    2. LAWSON, A.J.               Forward    24 min   expected PIR   9.7   vs own norm -0.4
+    3. SEDEKERSKIS, TADAS         Forward    18 min   expected PIR   9.4   vs own norm -0.1
+    4. DUARTE, CHRIS              Forward    20 min   expected PIR   9.2   vs own norm -0.0
+    5. STEWART, DJ                Forward    23 min   expected PIR   8.3   vs own norm -0.3
+
+Thu 22 Oct 2026, 21:30  |  round 7
+Armani Olimpia Milan (MIL) v FC Barcelona (BAR)
+  Armani Olimpia Milan
+    1. WRIGHT, MOSES              Center     22 min   expected PIR  16.5   vs own norm +0.6
+    2. PETERS, ALEC               Forward    23 min   expected PIR  12.1   vs own norm -0.4
+    3. HALL, DEVON                Guard      26 min   expected PIR  11.4   vs own norm +0.3
+    4. GUDURIC, MARKO             Guard      22 min   expected PIR   8.8   vs own norm -0.1
+    5. MATHEWS, GARRISON          Guard      19 min   expected PIR   8.6   vs own norm +0.3
+  FC Barcelona
+    1. PUNTER, KEVIN              Guard      23 min   expected PIR  13.4   vs own norm +0.6
+    2. ROBINSON, JUSTIN           Guard      19 min   expected PIR  12.4   vs own norm +0.4
+    3. NEBO, JOSH                 Center     19 min   expected PIR  11.0   vs own norm +0.5
+    4. GIBSON, UMOJA              Guard      18 min   expected PIR   9.4   vs own norm +0.7
+    5. MARTIN, TYRESE             Forward    23 min   expected PIR   8.5   vs own norm +0.6
+
+Thu 22 Oct 2026, 21:45  |  round 7
+Partizan Mozzart Bet Belgrade (PAR) v Crvena Zvezda Meridianbet Belgrade (RED)
+  Partizan Mozzart Bet Belgrade
+    1. JONES, CARLIK              Guard      26 min   expected PIR  15.7   vs own norm -0.7
+    2. JEKIRI, TONYE              Center     17 min   expected PIR  10.7   vs own norm +0.3
+    3. STEVENS, LAMAR             Forward    22 min   expected PIR  10.0   vs own norm +0.1
+    4. HAYES, KEVARRIUS           Center     18 min   expected PIR   8.4   vs own norm +0.2
+    5. VILDOZA, LUCA              Guard      18 min   expected PIR   8.0   vs own norm -0.3
+  Crvena Zvezda Meridianbet Belgrade
+    1. MONEKE, CHIMA              Forward    20 min   expected PIR  14.2   vs own norm +0.0
+    2. NWORA, JORDAN              Forward    22 min   expected PIR  12.0   vs own norm +0.2
+    3. OJELEYE, SEMI              Forward    25 min   expected PIR  11.4   vs own norm +0.3
+    4. JONES, CHRIS               Guard      19 min   expected PIR  10.6   vs own norm -0.5
+    5. IZUNDU, EBUKA              Center     17 min   expected PIR   8.4   vs own norm -0.3
+
+Fri 23 Oct 2026, 20:00  |  round 7
+Zalgiris Kaunas (ZAL) v LDLC ASVEL Villeurbanne (ASV)
+  Zalgiris Kaunas
+    1. TUBELIS, AZUOLAS           Forward    23 min   expected PIR  14.1   vs own norm +0.3
+    2. VALANCIUNAS, JONAS         Center     20 min   expected PIR  13.9   vs own norm +1.1  rising
+    3. EDWARDS, CARSEN            Guard      26 min   expected PIR  13.0   vs own norm +0.7  rising
+    4. BROWN, STERLING            Guard      20 min   expected PIR   9.5   vs own norm +0.4
+    5. LEE, SABEN                 Guard      18 min   expected PIR   7.9   vs own norm -0.1
+  LDLC ASVEL Villeurbanne
+    1. MILLS, PATTY               Guard      21 min   expected PIR  10.4   vs own norm +0.2
+    2. CROWDER, JAE               Forward    24 min   expected PIR  10.4   vs own norm +0.4
+    3. WASHINGTON JR, TYTY        Guard      21 min   expected PIR   9.8   vs own norm +0.2
+    4. BESSON, HUGO               Guard      20 min   expected PIR   9.5   vs own norm +0.3
+    5. JACKSON, EDWIN             Forward    26 min   expected PIR   8.7   vs own norm +0.5
+
+Fri 23 Oct 2026, 21:15  |  round 7
+Olympiacos Piraeus (OLY) v Fenerbahce Tarfin Istanbul (ULK)
+  Olympiacos Piraeus
+    1. VEZENKOV, SASHA            Forward    26 min   expected PIR  19.0   vs own norm -0.3
+    2. MONTERO, JEAN              Guard      25 min   expected PIR  16.8   vs own norm -0.2
+    3. MILUTINOV, NIKOLA          Center     15 min   expected PIR  11.1   vs own norm -0.0
+    4. NDIAYE, MBAYE              Forward    21 min   expected PIR  10.7   vs own norm +0.5
+    5. DORSEY, TYLER              Guard      18 min   expected PIR   9.1   vs own norm -0.3
+  Fenerbahce Tarfin Istanbul
+    1. BALDWIN IV, WADE           Guard      22 min   expected PIR  13.3   vs own norm +0.1
+    2. HORTON TUCKER, TALEN       Guard      20 min   expected PIR  12.1   vs own norm +0.0
+    3. SHIELDS, SHAVON            Forward    22 min   expected PIR  10.8   vs own norm -0.4
+    4. CLYBURN, WILL              Forward    21 min   expected PIR   9.5   vs own norm -0.4
+    5. KEY, BRAXTON               Forward    23 min   expected PIR   9.5   vs own norm -0.4
+
+Fri 23 Oct 2026, 21:45  |  round 7
+Paris Basketball (PRS) v Valencia Basket (PAM)
+  Paris Basketball
+    1. HIFI, NADIR                Guard      26 min   expected PIR  16.6   vs own norm +0.3
+    2. ETIENNE, TYSON             Guard      22 min   expected PIR  11.1   vs own norm +0.7  rising
+    3. DOKOSSI, ALLAN             Center     19 min   expected PIR   9.8   vs own norm -0.0
+    4. WARREN, TJ                 Forward    20 min   expected PIR   9.7   vs own norm +0.1
+    5. RHODEN, JARED              Guard      19 min   expected PIR   8.0   vs own norm +0.3
+  Valencia Basket
+    1. SHORTS, TJ                 Guard      23 min   expected PIR  15.3   vs own norm +0.7  rising
+    2. MIROTIC, NIKOLA            Forward    18 min   expected PIR  13.0   vs own norm +0.8  rising
+    3. TAYLOR, KAMERON            Forward    24 min   expected PIR  12.3   vs own norm +0.5
+    4. BROOKS, ARMONI             Guard      21 min   expected PIR   9.6   vs own norm +0.4
+    5. REUVERS, NATHAN            Forward    15 min   expected PIR   7.9   vs own norm +0.2
