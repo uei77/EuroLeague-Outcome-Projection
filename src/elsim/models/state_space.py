@@ -33,6 +33,8 @@ class Params(NamedTuple):
     travel_effect: float = 0.0  # home margin per 100 possessions per 1,000 km more travelled by the away team
     form_effect: float = 0.0  # share of the two teams' home and away form (features/factors.py) added to the margin
     style_effect: float = 0.0  # share of the shot-profile matchup added to the margin
+    venue_effect: float = 0.0  # share of the two teams' long-run home and away splits added to the margin
+    abroad_effect: float = 0.0  # home margin per 100 possessions when the home team plays far from its home city
 
 
 # League level and home edge move slowly; these are fixed, not fitted.
@@ -53,6 +55,8 @@ class Game(NamedTuple):
     travel_diff: float = 0.0  # away travel minus home travel, in 1,000 km
     form_diff: float = 0.0  # home team's home form plus away team's away form, points per 100
     style_diff: float = 0.0  # shot-profile matchup, home minus away, points per 100 shots
+    venue_diff: float = 0.0  # home team's long-run home split plus away team's, points per 100
+    abroad: float = 0.0  # 1 when the home team plays its home game far from its home city
 
 
 class State(NamedTuple):
@@ -168,6 +172,8 @@ def run_with_state(
             + params.travel_effect * game.travel_diff
             + params.form_effect * game.form_diff
             + params.style_effect * game.style_diff
+            + params.venue_effect * game.venue_diff
+            + params.abroad_effect * game.abroad
         )
         expected = expected + np.array([context / 2, -context / 2])
         S = H @ Q @ H.T + R

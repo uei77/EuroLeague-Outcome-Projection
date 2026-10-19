@@ -34,7 +34,7 @@ An interim reading after round 15 is allowed, but no decision is taken from it.
 
 The model may change during the season, between rounds, only if the change passes all of these on the walk-forward backtest (2020-21 to the latest round, every season predicted with settings fitted only on earlier seasons), compared with the current model on the same games:
 
-1. Mean log loss is lower, and in at least 85% of round-block resamples (`elsim.models.compare`). (Set at 90% on 12 October 2026 and lowered to 85% the same day by the owner's decision; at 85%, a change with no real effect passes about one time in seven.)
+1. Mean log loss is lower, and in at least 80% of round-block resamples (`elsim.models.compare`). (Set at 90% on 12 October 2026, lowered to 85% the same day and to 80% on 19 October 2026, each by the owner's decision; at 80%, a change with no real effect passes about one time in five.)
 2. The first ten rounds of the seasons together are not worse by more than 0.001.
 3. The gain is larger than the cost of adding a random feature of the same kind (placebo, about +0.001 for one extra fitted setting).
 4. Any constant chosen by hand is reported with its neighbours, so the gain is not an artefact of one lucky value.

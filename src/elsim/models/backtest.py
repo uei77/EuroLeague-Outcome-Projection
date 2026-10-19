@@ -35,7 +35,9 @@ BASE = POSITIVE + SHARE + CORRELATION
 # The rating model without and with the roster component. The published one
 # also weighs rest, travel, home and away form and the shot-profile matchup
 # (owner's decision, 12 October 2026; see docs/TECHNICAL_NOTES.md, "Context terms").
-CONTEXT = ("rest_effect", "travel_effect", "form_effect", "style_effect")
+# Since 19 October 2026 also each team's long-run home and away split and a
+# flag for home games played far from the club's home city.
+CONTEXT = ("rest_effect", "travel_effect", "form_effect", "style_effect", "venue_effect", "abroad_effect")
 VARIANTS = {"p_rating": BASE, "p_roster": BASE + ("roster_off", "roster_def") + CONTEXT}
 # Fitted context weights are halved before forecasting. At full weight they
 # made forecasts worse than leaving them out (fitting picks up noise); at
@@ -117,12 +119,13 @@ def load_rosters(db, column: str = "available_z") -> tuple[dict, dict]:
 
 
 def load_context(db) -> dict:
-    """Return (rest, travel, home and away form, shot-profile matchup) per
-    (season, game), all from the home team's side; see features/factors.py."""
+    """Return (rest, travel, home and away form, shot-profile matchup,
+    long-run home and away split, home game abroad) per (season, game), all
+    from the home team's side; see features/factors.py."""
     return {
         (s, g): values
         for s, g, *values in db.execute(
-            "SELECT season_code, game_code, rest, travel, home_away, style FROM factor_inputs"
+            "SELECT season_code, game_code, rest, travel, home_away, style, venue, abroad FROM factor_inputs"
         ).fetchall()
     }
 
@@ -140,7 +143,7 @@ def as_games(rows: list[dict], rosters: dict, context: dict | None = None) -> li
             r["away_per_100"],
             rosters.get((r["season_code"], r["game_code"], r["home_code"])),
             rosters.get((r["season_code"], r["game_code"], r["away_code"])),
-            *context.get((r["season_code"], r["game_code"]), (0.0, 0.0, 0.0, 0.0)),
+            *context.get((r["season_code"], r["game_code"]), (0.0,) * 6),
         )
         for r in rows
     ]

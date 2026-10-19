@@ -7,7 +7,11 @@ data from before the game's tip-off, except the league averages used for
 centring, which come from earlier seasons.
 """
 
+import csv
 from collections import defaultdict
+from pathlib import Path
+
+from elsim.features.context import distance_km, load_venues
 
 FACTORS = {
     # name: (label, unit)
@@ -28,6 +32,11 @@ FACTORS = {
         "log attendance",
     ),
     "referees": ("Referees: how much better home teams have done in this crew's earlier games", "points per 100"),
+    "venue": (
+        "Long-run home and away split: how much better each team has played at home than away in earlier seasons",
+        "points per 100",
+    ),
+    "abroad": ("Home team playing its home game far from its home city (config/home_cities.csv)", "game"),
 }
 
 FACTOR_INPUTS_DDL = "season_code VARCHAR, game_code INTEGER, " + ", ".join(f"{name} DOUBLE" for name in FACTORS)
@@ -40,6 +49,8 @@ COACH_SHRINK_GAMES = 20
 FORM_SHRINK_GAMES = 10  # a team's home-away split so far counts for g / (g + 10) after g games
 CROWD_SHRINK_GAMES = 5  # a team's attendance so far is pulled to the league's by 5 games
 REFEREE_SHRINK_GAMES = 50
+VENUE_SHRINK_GAMES = 100  # a team's split over earlier seasons counts for G / (G + 100) after G games
+ABROAD_KM = 500  # a home game this far from the club's home city counts as played abroad
 POINTS = {"above-break three": 3, "corner three": 3}
 
 MATCHUPS = {
@@ -344,6 +355,59 @@ def _coaches(db, order: list[tuple], home_won: dict[tuple, bool]) -> dict[tuple,
     return out
 
 
+def _venue(db) -> dict[tuple, float]:
+    """Home team's long-run home split plus away team's: each team's
+    (home net rating - away net rating) / 2 over all earlier seasons
+    (Final Four games left out), above the league's average split in those
+    seasons, shrunk by G / (G + VENUE_SHRINK_GAMES) after G games. Zero for
+    Final Four games (neutral)."""
+    by_team = defaultdict(dict)
+    for season, team, n, split in db.execute(
+        """SELECT season_code, team_code, count(*),
+                  (100.0 * sum(points - opp_points) FILTER (is_home) / sum(possessions) FILTER (is_home)
+                 - 100.0 * sum(points - opp_points) FILTER (NOT is_home) / sum(possessions) FILTER (NOT is_home)) / 2
+           FROM team_game_stats JOIN games USING (season_code, game_code)
+           WHERE phase <> 'FF' GROUP BY ALL"""
+    ).fetchall():
+        if split is not None:  # a team with no home or no away game yet
+            by_team[team][season] = (n, split)
+
+    def longrun(team: str, season: str) -> float:
+        earlier = [(n, v) for s, (n, v) in by_team[team].items() if s < season]
+        league = [v for t in by_team.values() for s, (_, v) in t.items() if s < season]
+        games = sum(n for n, _ in earlier)
+        if not games:
+            return 0.0
+        usual = sum(league) / len(league)
+        return games / (games + VENUE_SHRINK_GAMES) * (sum(n * v for n, v in earlier) / games - usual)
+
+    return {
+        (s, g): 0.0 if phase == "FF" else longrun(home, s) + longrun(away, s)
+        for s, g, phase, home, away in db.execute(
+            "SELECT season_code, game_code, phase, home_code, away_code FROM games WHERE status <> 'Cancelled'"
+        ).fetchall()
+    }
+
+
+def _abroad(db) -> dict[tuple, float]:
+    """1 for a home game played more than ABROAD_KM from the home club's home
+    city, for the clubs listed in config/home_cities.csv (by hand: clubs that
+    play home games elsewhere, such as the Israeli clubs since the war)."""
+    path = Path("config") / "home_cities.csv"
+    if not path.exists():
+        return {}
+    with open(path, newline="", encoding="utf-8") as f:
+        cities = {r["team_code"]: (float(r["latitude"]), float(r["longitude"])) for r in csv.DictReader(f)}
+    venues = load_venues()
+    return {
+        (s, g): 1.0
+        for s, g, phase, home, venue in db.execute(
+            "SELECT season_code, game_code, phase, home_code, venue_code FROM games WHERE status <> 'Cancelled'"
+        ).fetchall()
+        if phase != "FF" and home in cities and venue in venues and distance_km(cities[home], venues[venue]) > ABROAD_KM
+    }
+
+
 def build_factor_inputs(db) -> None:
     """Create the factor_inputs table, one row per scheduled game."""
     order = db.execute(
@@ -366,6 +430,7 @@ def build_factor_inputs(db) -> None:
     matchups, coaches, form = _matchups(db), _coaches(db, order, home_won), _home_away(db)
     zones, style = _zones(db, order)
     crowd, referees = _crowd_and_referees(db, order)
+    venue, abroad = _venue(db), _abroad(db)
     rows = []
     for s, g, *_ in order:
         rest, travel = context.get((s, g), (0.0, 0.0))
@@ -383,6 +448,8 @@ def build_factor_inputs(db) -> None:
                 coaches.get((s, g), 0.0),
                 crowd.get((s, g), 0.0),
                 referees.get((s, g), 0.0),
+                venue.get((s, g), 0.0),
+                abroad.get((s, g), 0.0),
             ]
         )
     db.execute(f"CREATE OR REPLACE TABLE factor_inputs ({FACTOR_INPUTS_DDL})")

@@ -26,9 +26,9 @@ Measured walk-forward on **2,058 games (2020-21 to round 4 of 2026-27)**: every 
 | Home team always wins | 62.3% | 0.6629 |
 | Tuned Elo rating | 65.1% | 0.6268 |
 | Team rating model alone | 65.3% | 0.6222 |
-| **elsim (published model)** | **65.5%** | **0.6165** |
+| **elsim (published model)** | **65.7%** | **0.6159** |
 
-The published model beats a tuned Elo in all seven seasons (difference -0.0104 in log loss, 90% interval -0.0155 to -0.0055, resampling whole rounds).
+The published model beats a tuned Elo in all seven seasons (difference -0.0109 in log loss, 90% interval -0.0161 to -0.0060, resampling whole rounds).
 
 **Its probabilities mean what they say.** Of the games it gave the home team about 75%, the home team won 74%; at about 85%, 88%.
 
@@ -80,7 +80,7 @@ The model carries over: it beats Elo in three of four seasons (-0.0045 in log lo
 
 | Who | Winners picked | How it was measured |
 |---|---|---|
-| **elsim** | **65.5%** (single seasons 62.5-72.5%) | 7 seasons, 2,058 games, walk-forward |
+| **elsim** | **65.7%** (single seasons 62.5-72.5%) | 7 seasons, 2,058 games, walk-forward |
 | Lampis et al. (2023), machine learning | 66-69% | one season, 2017-18 |
 | Giasemidis (2020), machine learning | 66.0% | one season, 2018-19 |
 | Fans' majority vote, same study | 73.2% | the same single season |
@@ -112,11 +112,11 @@ flowchart LR
 - **Team strength.** Each team's offence and defence (points per 100 possessions) are tracked game by game with a Kalman filter, with a league-wide home edge and correlated scoring between the two teams.
 - **Rosters.** Each team is valued at every tip-off from the players registered and available then. A player's value combines a box-score value learned from lineup data (true shooting, assists, steals and rebounds weigh most) and a lineup-based plus-minus in which head coaches are credited separately. Signings, departures and injuries move the team when they happen.
 - **Availability.** A player who missed his team's last three games is counted out; known injuries from the league's report are entered by hand and shown as a second forecast.
-- **Context.** Rest days, travel distance, home and away form and a shot-zone matchup are weighed at half their fitted weight.
+- **Context.** Rest days, travel distance, home and away form this season, each team's long-run home and away split, home games played abroad (the Israeli clubs) and a shot-zone matchup are weighed at half their fitted weight.
 - **Season.** The rest of the season is played out 100,000 times with the league's real tie-break, play-in, playoff and Final Four rules.
 - **Players to Watch.** Learned weights on a player's level, minutes and scoring form, and the opponent's record against his position.
 
-Every addition had to pass a written rule before it was kept: lower log loss in at least 85% of resamples of whole rounds, no harm to the first ten rounds, and a gain above what a random feature would show. More than twenty ideas were measured; the ones that failed (team-specific home edge, coach win records, referees, in-season player updates, an Elo blend and others) are listed with their numbers in [docs/TECHNICAL_NOTES.md](docs/TECHNICAL_NOTES.md).
+Every addition had to pass a written rule before it was kept: lower log loss in at least 80% of resamples of whole rounds, no harm to the first ten rounds, and a gain above what a random feature would show. More than twenty ideas were measured; the ones that failed (team-specific home edge, coach win records, referees, in-season player updates, an Elo blend and others) are listed with their numbers in [docs/TECHNICAL_NOTES.md](docs/TECHNICAL_NOTES.md).
 
 ## Quick start
 

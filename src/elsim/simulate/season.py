@@ -50,7 +50,8 @@ def simulate_season(db, settings: dict) -> tuple[str, dict]:
     ).fetchall()
     remaining = db.execute(
         """SELECT g.home_code, g.away_code, coalesce(p.absence_shift_per_100, 0),
-                  coalesce(f.rest, 0), coalesce(f.travel, 0), coalesce(f.home_away, 0), coalesce(f.style, 0)
+                  coalesce(f.rest, 0), coalesce(f.travel, 0), coalesce(f.home_away, 0), coalesce(f.style, 0),
+                  coalesce(f.venue, 0), coalesce(f.abroad, 0)
            FROM games AS g
            LEFT JOIN game_predictions AS p
              ON p.run_id = ? AND p.season_code = g.season_code AND p.game_code = g.game_code
@@ -71,9 +72,15 @@ def simulate_season(db, settings: dict) -> tuple[str, dict]:
 
     fixtures = [g[:2] for g in remaining]
     # The rating model's own context terms for each game (rest, travel, home
-    # and away form, shot-profile matchup), as in the game forecasts.
+    # and away form, shot-profile matchup, long-run split, home game abroad),
+    # as in the game forecasts.
     context = [
-        params.rest_effect * g[3] + params.travel_effect * g[4] + params.form_effect * g[5] + params.style_effect * g[6]
+        params.rest_effect * g[3]
+        + params.travel_effect * g[4]
+        + params.form_effect * g[5]
+        + params.style_effect * g[6]
+        + params.venue_effect * g[7]
+        + params.abroad_effect * g[8]
         for g in remaining
     ]
     absence_shift = [g[2] for g in remaining]

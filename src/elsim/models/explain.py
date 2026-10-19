@@ -27,7 +27,14 @@ IN_FORECAST = {
     "missing": "Registered players currently not playing (missed the team's last three games)",
 }
 # Factors the rating model weighs itself, and the setting that holds the weight.
-MODEL_TERMS = {"home_away": "form_effect", "rest": "rest_effect", "travel": "travel_effect", "style": "style_effect"}
+MODEL_TERMS = {
+    "home_away": "form_effect",
+    "rest": "rest_effect",
+    "travel": "travel_effect",
+    "style": "style_effect",
+    "venue": "venue_effect",
+    "abroad": "abroad_effect",
+}
 LEFT_OUT = [name for name in FACTORS if name not in MODEL_TERMS]
 
 
