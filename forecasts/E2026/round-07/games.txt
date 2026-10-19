@@ -1,4 +1,4 @@
-EuroLeague forecasts, run 20261019T165507Z (times in this computer's local time)
+EuroLeague forecasts, run 20261019T173441Z (times in this computer's local time)
 Probabilities come from the published model; ranges are 80% ranges. No betting advice.
 Known absences: JAMES, MIKE until 2027-06-30; MOTLEY, JOHNATHAN until 2026-10-28; MINAYA, JUSTIN until 2026-10-16; PLOTAS, NIKOLAOS until 2026-11-18; DOSSOU-YOVO, MATHIS until 2026-10-30; ANDERSON, JUSTIN until 2026-10-16; MAKOUNDOU, YOAN until 2026-10-16; WILLIS, DEREK until 2026-10-16; ENNIS, TYLER until 2027-06-30; GARUBA, USMAN until 2027-06-30; CORDINIER, ISAIA until 2026-10-30; PAPAGIANNIS, GEORGIOS until 2026-10-30; MARINKOVIC, VANJA until 2026-10-30; JEFFRIES, DAQUAN until 2026-10-30; DECK, GABRIEL until 2027-02-28
 
@@ -6,80 +6,80 @@ Known absences: JAMES, MIKE until 2027-06-30; MOTLEY, JOHNATHAN until 2026-10-28
 
 Wed 21 Oct 2026, 19:00  |  round 7
 Hapoel IBI Tel Aviv (HTA) v Virtus Bologna (VIR)
-  Win chance        HTA 76.6%   VIR 23.4%   (favourite: Hapoel IBI Tel Aviv, confident pick)
+  Win chance        HTA 75.0%   VIR 25.0%   (favourite: Hapoel IBI Tel Aviv, confident pick)
   Expected score    92 - 83
-  Margin (home)     +9.2, 80% range -7 to +25
+  Margin (home)     +8.5, 80% range -8 to +25
   Total points      175, 80% range 155 to 195
   Market            HTA 76.3% (median of 16 bookmakers, comparison only)
 
 Thu 22 Oct 2026, 20:30  |  round 7
 Anadolu Efes Istanbul (IST) v Besiktas Istanbul (BES)
-  Win chance        IST 63.9%   BES 36.1%   (favourite: Anadolu Efes Istanbul)
+  Win chance        IST 64.4%   BES 35.6%   (favourite: Anadolu Efes Istanbul)
   Expected score    91 - 86
-  Margin (home)     +4.6, 80% range -12 to +21
+  Margin (home)     +4.8, 80% range -12 to +21
   Total points      177, 80% range 157 to 197
   Market            IST 62.3% (median of 16 bookmakers, comparison only)
 
 Thu 22 Oct 2026, 21:00  |  round 7
 FC Bayern Munich (MUN) v Dubai Basketball (DUB)
-  Win chance        MUN 49.2%   DUB 50.8%   (favourite: Dubai Basketball)
+  Win chance        MUN 49.6%   DUB 50.4%   (favourite: Dubai Basketball)
   Expected score    85 - 85
-  Margin (home)     -0.3, 80% range -16 to +15
+  Margin (home)     -0.1, 80% range -16 to +15
   Total points      169, 80% range 150 to 188
   Market            MUN 39.2% (median of 16 bookmakers, comparison only)
 
 Thu 22 Oct 2026, 21:05  |  round 7
 Maccabi Rapyd Tel Aviv (TEL) v Real Madrid (MAD)
-  Win chance        TEL 42.1%   MAD 57.9%   (favourite: Real Madrid)
-  Expected score    87 - 89
-  Margin (home)     -2.5, 80% range -18 to +14
+  Win chance        TEL 40.3%   MAD 59.7%   (favourite: Real Madrid)
+  Expected score    87 - 90
+  Margin (home)     -3.1, 80% range -19 to +13
   Total points      176, 80% range 157 to 196
   Market            TEL 33.5% (median of 16 bookmakers, comparison only)
 
 Thu 22 Oct 2026, 21:15  |  round 7
 Panathinaikos AKTOR Athens (PAN) v Kosner Baskonia Vitoria-Gasteiz (BAS)
-  Win chance        PAN 84.6%   BAS 15.4%   (favourite: Panathinaikos AKTOR Athens, confident pick)
-  Expected score    93 - 80
-  Margin (home)     +12.7, 80% range -3 to +29
+  Win chance        PAN 86.5%   BAS 13.5%   (favourite: Panathinaikos AKTOR Athens, confident pick)
+  Expected score    94 - 80
+  Margin (home)     +13.7, 80% range -2 to +30
   Total points      173, 80% range 154 to 193
   Market            PAN 89.9% (median of 14 bookmakers, comparison only)
 
 Thu 22 Oct 2026, 21:30  |  round 7
 Armani Olimpia Milan (MIL) v FC Barcelona (BAR)
-  Win chance        MIL 55.6%   BAR 44.4%   (favourite: Armani Olimpia Milan)
+  Win chance        MIL 55.2%   BAR 44.8%   (favourite: Armani Olimpia Milan)
   Expected score    87 - 85
-  Margin (home)     +1.7, 80% range -14 to +17
+  Margin (home)     +1.6, 80% range -14 to +17
   Total points      171, 80% range 152 to 191
   Market            MIL 60.2% (median of 16 bookmakers, comparison only)
 
 Thu 22 Oct 2026, 21:45  |  round 7
 Partizan Mozzart Bet Belgrade (PAR) v Crvena Zvezda Meridianbet Belgrade (RED)
-  Win chance        PAR 55.5%   RED 44.5%   (favourite: Partizan Mozzart Bet Belgrade)
+  Win chance        PAR 55.3%   RED 44.7%   (favourite: Partizan Mozzart Bet Belgrade)
   Expected score    85 - 83
-  Margin (home)     +1.7, 80% range -14 to +18
+  Margin (home)     +1.7, 80% range -14 to +17
   Total points      168, 80% range 148 to 187
   Market            PAR 57.4% (median of 16 bookmakers, comparison only)
 
 Fri 23 Oct 2026, 20:00  |  round 7
 Zalgiris Kaunas (ZAL) v LDLC ASVEL Villeurbanne (ASV)
-  Win chance        ZAL 76.6%   ASV 23.4%   (favourite: Zalgiris Kaunas, confident pick)
+  Win chance        ZAL 76.3%   ASV 23.7%   (favourite: Zalgiris Kaunas, confident pick)
   Expected score    91 - 82
-  Margin (home)     +9.1, 80% range -7 to +25
+  Margin (home)     +9.0, 80% range -7 to +25
   Total points      173, 80% range 153 to 193
   Market            ZAL 81.6% (median of 12 bookmakers, comparison only)
 
 Fri 23 Oct 2026, 21:15  |  round 7
 Olympiacos Piraeus (OLY) v Fenerbahce Tarfin Istanbul (ULK)
-  Win chance        OLY 72.4%   ULK 27.6%   (favourite: Olympiacos Piraeus, confident pick)
+  Win chance        OLY 72.7%   ULK 27.3%   (favourite: Olympiacos Piraeus, confident pick)
   Expected score    89 - 82
-  Margin (home)     +7.3, 80% range -8 to +23
+  Margin (home)     +7.4, 80% range -8 to +23
   Total points      171, 80% range 152 to 190
   Market            OLY 66.6% (median of 12 bookmakers, comparison only)
 
 Fri 23 Oct 2026, 21:45  |  round 7
 Paris Basketball (PRS) v Valencia Basket (PAM)
-  Win chance        PRS 49.6%   PAM 50.4%   (favourite: Valencia Basket)
-  Expected score    89 - 89
-  Margin (home)     -0.1, 80% range -17 to +16
+  Win chance        PRS 47.6%   PAM 52.4%   (favourite: Valencia Basket)
+  Expected score    89 - 90
+  Margin (home)     -0.8, 80% range -17 to +16
   Total points      179, 80% range 159 to 199
   Market            PRS 37.0% (median of 12 bookmakers, comparison only)
