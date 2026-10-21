@@ -1,6 +1,6 @@
-EuroLeague forecasts, run 20261019T173441Z (times in this computer's local time)
+EuroLeague forecasts, run 20261021T113019Z (times in this computer's local time)
 Probabilities come from the published model; ranges are 80% ranges. No betting advice.
-Known absences: JAMES, MIKE until 2027-06-30; MOTLEY, JOHNATHAN until 2026-10-28; MINAYA, JUSTIN until 2026-10-16; PLOTAS, NIKOLAOS until 2026-11-18; DOSSOU-YOVO, MATHIS until 2026-10-30; ANDERSON, JUSTIN until 2026-10-16; MAKOUNDOU, YOAN until 2026-10-16; WILLIS, DEREK until 2026-10-16; ENNIS, TYLER until 2027-06-30; GARUBA, USMAN until 2027-06-30; CORDINIER, ISAIA until 2026-10-30; PAPAGIANNIS, GEORGIOS until 2026-10-30; MARINKOVIC, VANJA until 2026-10-30; JEFFRIES, DAQUAN until 2026-10-30; DECK, GABRIEL until 2027-02-28
+Known absences: JAMES, MIKE until 2027-06-30; MOTLEY, JOHNATHAN until 2026-10-28; MINAYA, JUSTIN until 2026-10-16; PLOTAS, NIKOLAOS until 2026-11-18; DOSSOU-YOVO, MATHIS until 2026-10-30; ANDERSON, JUSTIN until 2026-10-16; MAKOUNDOU, YOAN until 2026-11-30; WILLIS, DEREK until 2026-10-16; ENNIS, TYLER until 2027-06-30; GARUBA, USMAN until 2027-06-30; CORDINIER, ISAIA until 2026-10-30; PAPAGIANNIS, GEORGIOS until 2026-10-30; MARINKOVIC, VANJA until 2026-10-30; JEFFRIES, DAQUAN until 2026-10-30; DECK, GABRIEL until 2027-02-28; DOZIER, PJ until 2026-10-31; JEKIRI, TONYE until 2026-11-03; FOURNIER, EVAN until 2026-11-10; MONTERO, JEAN until 2026-10-24
 
 10 games to come, in playing order
 
@@ -14,9 +14,9 @@ Hapoel IBI Tel Aviv (HTA) v Virtus Bologna (VIR)
 
 Thu 22 Oct 2026, 20:30  |  round 7
 Anadolu Efes Istanbul (IST) v Besiktas Istanbul (BES)
-  Win chance        IST 64.4%   BES 35.6%   (favourite: Anadolu Efes Istanbul)
+  Win chance        IST 64.3%   BES 35.7%   (favourite: Anadolu Efes Istanbul)
   Expected score    91 - 86
-  Margin (home)     +4.8, 80% range -12 to +21
+  Margin (home)     +4.7, 80% range -12 to +21
   Total points      177, 80% range 157 to 197
   Market            IST 62.3% (median of 16 bookmakers, comparison only)
 
@@ -58,6 +58,7 @@ Partizan Mozzart Bet Belgrade (PAR) v Crvena Zvezda Meridianbet Belgrade (RED)
   Expected score    85 - 83
   Margin (home)     +1.7, 80% range -14 to +17
   Total points      168, 80% range 148 to 187
+  With known absences  PAR 54.3%
   Market            PAR 57.4% (median of 16 bookmakers, comparison only)
 
 Fri 23 Oct 2026, 20:00  |  round 7
@@ -74,6 +75,7 @@ Olympiacos Piraeus (OLY) v Fenerbahce Tarfin Istanbul (ULK)
   Expected score    89 - 82
   Margin (home)     +7.4, 80% range -8 to +23
   Total points      171, 80% range 152 to 190
+  With known absences  OLY 71.2%
   Market            OLY 66.6% (median of 12 bookmakers, comparison only)
 
 Fri 23 Oct 2026, 21:45  |  round 7
